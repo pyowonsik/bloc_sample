@@ -38,6 +38,7 @@ dependencies:
   freezed_annotation:
   json_annotation: ^4.3.0
   bloc: ^8.1.0
+  equatable:
 
 dev_dependencies:
   flutter_test:
