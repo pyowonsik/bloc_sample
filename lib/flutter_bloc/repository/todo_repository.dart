@@ -1,5 +1,4 @@
-import 'package:blocs/model/todo.dart';
-
+import 'package:blocs/flutter_bloc/model/todo.dart';
 
 // GET - ListTodo
 // POST - CreateTodo
@@ -15,7 +14,6 @@ class TodoRepository {
         'title' : 'Flutter 배우기',
         'createAt':DateTime.now().toString(),
       },
-
       {
         'id':2,
         'title' : 'Dart 배우기',
@@ -23,7 +21,6 @@ class TodoRepository {
       },
     ];
   }
-
 
   Future<Map<String,dynamic>> createTodo(Todo todo)async{
     await Future.delayed(Duration(seconds: 1));
@@ -34,6 +31,4 @@ class TodoRepository {
     await Future.delayed(Duration(seconds: 1));
     return todo.toJson();
   }
-
-
 }

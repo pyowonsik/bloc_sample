@@ -1,17 +1,17 @@
-import 'package:blocs/src/bloc/count_bloc.dart';
-import 'package:blocs/src/components/count_view.dart';
+import 'package:blocs/bloc_example/bloc/count_bloc.dart';
+import 'package:blocs/bloc_example/components/count_view.dart';
 import 'package:flutter/material.dart';
 
 late CountBloc countBloc; // 전역 변수로 CountBloc을 호출하고 late를 통해 나중에 값을 받는다.
 
-class BlocDisplayWidget extends StatefulWidget {
-  const BlocDisplayWidget({Key? key}) : super(key: key);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
 
   @override
-  _BlocDisplayWidgetState createState() => _BlocDisplayWidgetState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _BlocDisplayWidgetState extends State<BlocDisplayWidget> {
+class _HomeScreenState extends State<HomeScreen> {
   // initState() : 위젯이 생성될 때 처음으로 호출되는 메서드
   // initState()을 통해 CountBloc()을 생성
   @override

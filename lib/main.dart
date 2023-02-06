@@ -1,4 +1,4 @@
-import 'package:blocs/src/ui/bloc_display_widge.dart';
+import 'package:blocs/home/home.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: BlocDisplayWidget(), // BlocDisplayWidget 호출
+      home:Home(),
     );
   }
 }

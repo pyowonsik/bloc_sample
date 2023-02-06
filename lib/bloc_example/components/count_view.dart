@@ -1,4 +1,4 @@
-import 'package:blocs/src/ui/bloc_display_widge.dart';
+import 'package:blocs/bloc_example/screen/home.dart';
 import 'package:flutter/material.dart';
 
 // count만을 보여주는 코드

@@ -37,8 +37,12 @@ dependencies:
   cupertino_icons: ^1.0.2
   freezed_annotation:
   json_annotation: ^4.3.0
+  flutter_bloc: ^8.1.1
   bloc: ^8.1.0
+  formz: ^0.4.0
   equatable:
+  
+  
 
 dev_dependencies:
   flutter_test:
